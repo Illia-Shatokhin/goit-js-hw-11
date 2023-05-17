@@ -26,3 +26,26 @@
   background-size: cover;
   background-position: center;
 }
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 100px;
+  background-color: #7979ce;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  border-radius: 4px;
+  width: 400px;
+  height: 37px;
+  display: block;
+}
+
+.btn {
+  height: 37px;
+  margin: 0;
+}
