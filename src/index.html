@@ -11,11 +11,19 @@
     <!-- ❗️❗️❗️ Add partials like so for every page -->
     <!-- <include src="./partials/example.html"></include> -->
     <div class="container">
-      <input class="input" type="text" /><button class="btn">
-        <svg class="btn-icon" width="24" height="24">
-          <use></use>
-        </svg>
-      </button>
+      <form class="search-form" id="search-form">
+        <input
+          type="text"
+          name="searchQuery"
+          autocomplete="off"
+          placeholder="Search images..."
+        />
+        <button type="submit" class="btn">Search</button>
+      </form>
     </div>
+    <div class="gallery">
+      <!-- Картки зображень -->
+    </div>
+    <button type="button" class="load-more hidden">Load more</button>
   </body>
 </html>
